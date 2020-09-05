@@ -1,0 +1,19 @@
+
+/* .for-svg {
+    display: flex;
+    background-color: aqua;
+    justify-items: center;
+    align-items: center;
+}
+svg {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+} */
+.text-primary {
+    color: rgb(143, 101, 143);
+    fill: rgb(143, 101, 143);
+}
+.text-secondary {
+    color: darkslategrey;
+}

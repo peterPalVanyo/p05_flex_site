@@ -158,3 +158,71 @@ header nav ul li a:hover {
 .cases img:hover {
     opacity: 0.9;
 }
+.team img {
+    border-radius: 10%;
+}
+.callback-form {
+    width: 100%;
+    padding: 20px 0;
+}
+.callback-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+.callback-form .form-control {
+    margin-bottom: 15px;
+}
+.callback-form input {
+    width: 100%;
+    padding: 4px;
+    height: 40px;
+    border: #f5f5f5 solid 1px;
+}
+.callback-form input:focus {
+    outline-color: #2D4222;
+}
+.callback-form .btn {
+    width: 100%;
+    padding: 12px 0;
+    margin-top: 20px;
+}
+footer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+footer .social {
+    /* height: 40px; */
+}
+footer .social svg {
+    height: 30px;
+    width: 30px;
+    margin: 0 10px;
+}
+footer .social svg:hover {
+    fill: #2D4222;
+}
+
+@media(max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: 120px;
+        padding: 20px;
+    }
+    .navbar a {
+        padding: 10px 10px;
+        margin: 0 3px;
+    }
+    .flex-items {
+        flex-direction: column;
+    }
+    .flex-columns .column, .flex-grid .row .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+    .team img {
+        width: 80%;
+    }
+}

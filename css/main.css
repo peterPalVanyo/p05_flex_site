@@ -42,7 +42,10 @@ img {
     position: fixed;
     top: 0;
     color: #fff;
-    z-index: 100;
+    transition: all .5s ease-in;
+}
+.navbar.top {
+    background-color: transparent;
 }
 .logos {
     display: flex;
@@ -74,6 +77,10 @@ header nav ul li a:hover {
     height: 100vh;
     position: relative;
     color: #fff;
+}
+.hero.blog {
+    background: url("../imgs/home/blog.jpg") no-repeat center center/cover;
+    height: 30vh;
 }
 .hero .content a {
     display: flex;
@@ -203,6 +210,40 @@ footer .social svg {
 }
 footer .social svg:hover {
     fill: #2D4222;
+}
+article span, section span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article span svg, section span svg {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    fill: #2D4222;
+}
+
+article:nth-child(2) span svg {
+    fill: #fff;
+}
+.post {
+    padding: 50px 30px;
+}
+.post h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.post .meta {
+    margin-bottom: 30px;
+}
+.post img {
+    width: 300px;
+    border-radius: 20%;
+    display: block;
+    margin: 0 auto 30px;
 }
 
 @media(max-width: 768px) {
